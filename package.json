@@ -1,0 +1,34 @@
+{
+  "name": "awesome-todo",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Awesome Todo",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "lupsaciprian <57523214+lupsaciprian@users.noreply.github.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "firebase": "^7.15.4",
+    "quasar": "^1.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.7.0",
+    "devtron": "^1.4.0",
+    "electron": "^9.0.5",
+    "electron-debug": "^3.1.0",
+    "electron-devtools-installer": "^3.1.0",
+    "electron-packager": "^14.2.1"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
